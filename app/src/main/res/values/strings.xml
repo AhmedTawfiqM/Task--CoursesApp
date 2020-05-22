@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CourMata</string>
+    <string name="description">Browse Free Courses from Udemy and Different Platform</string>
+    <string name="app_id_ads">ca-app-pub-9099728505982015~9350123988</string>
+    <string name="banner_id_ads">ca-app-pub-9099728505982015/1010908467</string>
+    <string name="interitial_id_ads">ca-app-pub-9099728505982015/2683276301</string>
+
+    <string-array name="colors">
+        <item>#F32A50</item>
+        <item>#179612</item>
+        <item>#11138c</item>
+        <item>#5c0975</item>
+        <item>#b3ab19</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Travel To The World</item>
+        <item>Udemy Courses</item>
+        <item>Download Courses</item>
+    </string-array>
+
+
+    <string-array name="descs">
+        <item>Go Successful by learning Programming , marketing , data science ..etc </item>
+        <item>browse free courses from Udemy </item>
+        <item>watch and download all Categoreis of Courses Developmet ,Business , It, Software , LifeStyle , Fitness , Health</item>
+    </string-array>
+
+</resources>

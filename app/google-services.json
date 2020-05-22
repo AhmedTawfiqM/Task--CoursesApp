@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "745756966009",
+    "firebase_url": "https://courmata.firebaseio.com",
+    "project_id": "courmata",
+    "storage_bucket": "courmata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745756966009:android:9a9beb33f3156445b4a8a8",
+        "android_client_info": {
+          "package_name": "com.atdev.courmata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745756966009-8995d0mfnae486f8nvjgo0f9cnp7ftdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdW331d-zQWmpDZbr1X9Sy98CvIaAZ3X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745756966009-8995d0mfnae486f8nvjgo0f9cnp7ftdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

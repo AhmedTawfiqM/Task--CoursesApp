@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemExplore"
+        android:icon="@drawable/coupo"
+        android:title="Udemy Copouns" />
+
+    <item
+        android:id="@+id/itemMyTrips"
+        android:icon="@drawable/downloa"
+        android:title="Download" />
+
+
+</menu>

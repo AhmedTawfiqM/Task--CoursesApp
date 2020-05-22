@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atdev.courmata">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/coupon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/coupon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.SplashScreen"
+            android:theme="@style/AppThemeNoBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.watchcourse.WatchCourse" />
+        <activity android:name=".ui.developer_details.DeveloperDetails" />
+        <activity android:name=".ui.aboutus.AboutUs" />
+        <activity android:name=".ui.aboutActivity.AboutActivity" />
+        <activity android:name=".ui.courseDetails.CourseDetails" />
+        <activity
+            android:name=".ui.onboardingscreen.OnBoardingScrenn"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".ui.mainactivity.MainActivity"
+            android:theme="@style/AppThemeNoBar">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id_ads" />
+    </application>
+
+</manifest>
