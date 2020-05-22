@@ -50,7 +50,15 @@ class FragmentOthers : Fragment(), SwipeRefreshLayout.OnRefreshListener, CourseL
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
+
+        onSCrollListner()
+    }
+
+    private fun onSCrollListner() {
+        // get layout manager
         val layoutManager = LinearLayoutManager(activity!!, LinearLayoutManager.VERTICAL, false)
+        //init adadpter
         rvCourses.setHasFixedSize(true)
         rvCourses.layoutManager = layoutManager
         adapterCourse = CustomCoursesAdapter(activity!!, ArrayList(), this)

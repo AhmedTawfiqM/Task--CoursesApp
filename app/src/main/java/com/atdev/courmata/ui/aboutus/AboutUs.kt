@@ -21,12 +21,16 @@ class AboutUs : AppCompatActivity() {
         setContentView(R.layout.activity_about_us)
 
         //
-        supportActionBar!!.setHomeButtonEnabled(true)
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.setHomeAsUpIndicator(R.drawable.back)
+ init()
         //
         loadOurPhotos()
         cardDevelopersListener()
+    }
+
+    private fun init() {
+        supportActionBar!!.setHomeButtonEnabled(true)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.setHomeAsUpIndicator(R.drawable.back)
     }
 
     private fun cardDevelopersListener() {

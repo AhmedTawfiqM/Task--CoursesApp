@@ -25,14 +25,18 @@ class WatchCourse : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_watch_course)
         //
-        supportActionBar!!.setHomeButtonEnabled(true)
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.setHomeAsUpIndicator(R.drawable.back)
+        init()
         //
         loadURL()
 
         AdsLoader.LoadAdaptiveBannerAds(this@WatchCourse, banner_frame)
         showFullAds()
+    }
+
+    private fun init() {
+        supportActionBar!!.setHomeButtonEnabled(true)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.setHomeAsUpIndicator(R.drawable.back)
     }
 
     private fun loadURL() {

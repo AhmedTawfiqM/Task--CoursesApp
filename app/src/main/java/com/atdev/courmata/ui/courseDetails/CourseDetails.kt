@@ -26,13 +26,17 @@ class CourseDetails : AppCompatActivity() {
 
         setDataCourse()
         //
-        supportActionBar!!.setHomeButtonEnabled(true)
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.setHomeAsUpIndicator(R.drawable.back)
+  init()
         //
         AdsLoader.LoadAdaptiveBannerAds(this@CourseDetails, banner_frame)
         showFullAds()
         WatchCourseListner()
+    }
+
+    private fun init() {
+        supportActionBar!!.setHomeButtonEnabled(true)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.setHomeAsUpIndicator(R.drawable.back)
     }
 
     private fun WatchCourseListner() {
